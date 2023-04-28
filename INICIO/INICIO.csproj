@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E78A9179-9A96-4F10-9114-8E883498673F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>INICIO</RootNamespace>
+    <AssemblyName>INICIO</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Almacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Almacen.Designer.cs">
+      <DependentUpon>Almacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boletos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boletos.Designer.cs">
+      <DependentUpon>Boletos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente.Designer.cs">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConexionSQ\Conexion.cs" />
+    <Compile Include="ConexionSQ\conexionj.cs" />
+    <Compile Include="Configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion.Designer.cs">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cs.Designer.cs">
+      <DependentUpon>cs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleado.Designer.cs">
+      <DependentUpon>Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\Configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\Configuracion.Designer.cs">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\Donar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\Donar.Designer.cs">
+      <DependentUpon>Donar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\edit.Designer.cs">
+      <DependentUpon>edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\Editar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\Editar.Designer.cs">
+      <DependentUpon>Editar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\EMLEADOW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\EMLEADOW.Designer.cs">
+      <DependentUpon>EMLEADOW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\Modificar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\Modificar.Designer.cs">
+      <DependentUpon>Modificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\MODIFICAR2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\MODIFICAR2.Designer.cs">
+      <DependentUpon>MODIFICAR2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\Renunciar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\Renunciar.Designer.cs">
+      <DependentUpon>Renunciar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\suA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\suA.Designer.cs">
+      <DependentUpon>suA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\SUB\SUAGRE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\SUB\SUAGRE.Designer.cs">
+      <DependentUpon>SUAGRE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\SUB\Supletes1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\SUB\Supletes1.Designer.cs">
+      <DependentUpon>Supletes1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\Suplentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\Suplentes.Designer.cs">
+      <DependentUpon>Suplentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\userDelate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\userDelate.Designer.cs">
+      <DependentUpon>userDelate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Factura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Factura.Designer.cs">
+      <DependentUpon>Factura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IA.Designer.cs">
+      <DependentUpon>IA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Juegos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Juegos.Designer.cs">
+      <DependentUpon>Juegos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Productos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Productos.Designer.cs">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestaHuranteDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestaHuranteDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="subMANUSConfigura\AreaAndMESA\Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subMANUSConfigura\AreaAndMESA\Categoria.Designer.cs">
+      <DependentUpon>Categoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="subMANUSConfigura\AreaAndMESA\MesaAmdArea1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subMANUSConfigura\AreaAndMESA\MesaAmdArea1.Designer.cs">
+      <DependentUpon>MesaAmdArea1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="subMANUSConfigura\ConfiguracionII.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subMANUSConfigura\ConfiguracionII.Designer.cs">
+      <DependentUpon>ConfiguracionII.cs</DependentUpon>
+    </Compile>
+    <Compile Include="subMANUSConfigura\InfOUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subMANUSConfigura\InfOUser.Designer.cs">
+      <DependentUpon>InfOUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="subMANUSConfigura\MenusInfo\ModifycEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subMANUSConfigura\MenusInfo\ModifycEmpresa.Designer.cs">
+      <DependentUpon>ModifycEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="subMANUSConfigura\MenusInfo\ViewEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="subMANUSConfigura\MenusInfo\ViewEmpresa.Designer.cs">
+      <DependentUpon>ViewEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusFactura\Envio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusFactura\Envio.Designer.cs">
+      <DependentUpon>Envio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusFactura\Facturar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusFactura\Facturar.Designer.cs">
+      <DependentUpon>Facturar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusFactura\HomeFacture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusFactura\HomeFacture.Designer.cs">
+      <DependentUpon>HomeFacture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusFactura\Seleccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusFactura\Seleccion.Designer.cs">
+      <DependentUpon>Seleccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusFactura\SubMenuEnvios\ViewMesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusFactura\SubMenuEnvios\ViewMesa.Designer.cs">
+      <DependentUpon>ViewMesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusFactura\SudmenudeFacturarFin\Elegir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusFactura\SudmenudeFacturarFin\Elegir.Designer.cs">
+      <DependentUpon>Elegir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusFactura\SudmenudeFacturarFin\FacturaPendding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusFactura\SudmenudeFacturarFin\FacturaPendding.Designer.cs">
+      <DependentUpon>FacturaPendding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusFactura\SudmenudeFacturarFin\MenuEliminarFac\EliminarFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusFactura\SudmenudeFacturarFin\MenuEliminarFac\EliminarFactura.Designer.cs">
+      <DependentUpon>EliminarFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusFactura\SudmenudeFacturarFin\MenuEliminarFac\EliminarTodas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusFactura\SudmenudeFacturarFin\MenuEliminarFac\EliminarTodas.Designer.cs">
+      <DependentUpon>EliminarTodas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusFactura\SudmenudeFacturarFin\MenuEliminarFac\EliminarUna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusFactura\SudmenudeFacturarFin\MenuEliminarFac\EliminarUna.Designer.cs">
+      <DependentUpon>EliminarUna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusFactura\SudmenudeFacturarFin\ViewFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusFactura\SudmenudeFacturarFin\ViewFactura.Designer.cs">
+      <DependentUpon>ViewFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusFactura\SuDMenuFactura\Bancos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusFactura\SuDMenuFactura\Bancos.Designer.cs">
+      <DependentUpon>Bancos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusFactura\SuDMenuFactura\Efectivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusFactura\SuDMenuFactura\Efectivo.Designer.cs">
+      <DependentUpon>Efectivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusFactura\SuDMenuFactura\Paypal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusFactura\SuDMenuFactura\Paypal.Designer.cs">
+      <DependentUpon>Paypal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusProducto\AddCon\AgregarProducto.cs" />
+    <Compile Include="SubMenusProducto\Consultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusProducto\Consultar.Designer.cs">
+      <DependentUpon>Consultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusProducto\InfoBasica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusProducto\InfoBasica.Designer.cs">
+      <DependentUpon>InfoBasica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusProducto\ModifyConsul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusProducto\ModifyConsul.Designer.cs">
+      <DependentUpon>ModifyConsul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubMenusProducto\MostrarProduc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubMenusProducto\MostrarProduc.Designer.cs">
+      <DependentUpon>MostrarProduc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\herramientasAlma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\herramientasAlma.Designer.cs">
+      <DependentUpon>herramientasAlma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\MenufILTRO\AgregarAHeramientas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\MenufILTRO\AgregarAHeramientas.Designer.cs">
+      <DependentUpon>AgregarAHeramientas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\MenufILTRO\AreasHerramienta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\MenufILTRO\AreasHerramienta.Designer.cs">
+      <DependentUpon>AreasHerramienta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\MenufILTRO\ViewHer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\MenufILTRO\ViewHer.Designer.cs">
+      <DependentUpon>ViewHer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\MenufILTRO\ViewHerramienta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\MenufILTRO\ViewHerramienta.Designer.cs">
+      <DependentUpon>ViewHerramienta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIdeo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIdeo.Designer.cs">
+      <DependentUpon>VIdeo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Almacen.resx">
+      <DependentUpon>Almacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boletos.resx">
+      <DependentUpon>Boletos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cliente.resx">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion.resx">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cs.resx">
+      <DependentUpon>cs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleado.resx">
+      <DependentUpon>Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\Configuracion.resx">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\Donar.resx">
+      <DependentUpon>Donar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\edit.resx">
+      <DependentUpon>edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\Editar.resx">
+      <DependentUpon>Editar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\EMLEADOW.resx">
+      <DependentUpon>EMLEADOW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\Modificar.resx">
+      <DependentUpon>Modificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\MODIFICAR2.resx">
+      <DependentUpon>MODIFICAR2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\Renunciar.resx">
+      <DependentUpon>Renunciar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\SUB\SUAGRE.resx">
+      <DependentUpon>SUAGRE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\SUB\Supletes1.resx">
+      <DependentUpon>Supletes1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\Suplentes.resx">
+      <DependentUpon>Suplentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\userDelate.resx">
+      <DependentUpon>userDelate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Factura.resx">
+      <DependentUpon>Factura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IA.resx">
+      <DependentUpon>IA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Productos.resx">
+      <DependentUpon>Productos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="subMANUSConfigura\AreaAndMESA\Categoria.resx">
+      <DependentUpon>Categoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subMANUSConfigura\AreaAndMESA\MesaAmdArea1.resx">
+      <DependentUpon>MesaAmdArea1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subMANUSConfigura\ConfiguracionII.resx">
+      <DependentUpon>ConfiguracionII.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subMANUSConfigura\InfOUser.resx">
+      <DependentUpon>InfOUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subMANUSConfigura\MenusInfo\ModifycEmpresa.resx">
+      <DependentUpon>ModifycEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="subMANUSConfigura\MenusInfo\ViewEmpresa.resx">
+      <DependentUpon>ViewEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusFactura\Envio.resx">
+      <DependentUpon>Envio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusFactura\Facturar.resx">
+      <DependentUpon>Facturar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusFactura\HomeFacture.resx">
+      <DependentUpon>HomeFacture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusFactura\Seleccion.resx">
+      <DependentUpon>Seleccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusFactura\SubMenuEnvios\ViewMesa.resx">
+      <DependentUpon>ViewMesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusFactura\SudmenudeFacturarFin\Elegir.resx">
+      <DependentUpon>Elegir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusFactura\SudmenudeFacturarFin\FacturaPendding.resx">
+      <DependentUpon>FacturaPendding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusFactura\SudmenudeFacturarFin\MenuEliminarFac\EliminarFactura.resx">
+      <DependentUpon>EliminarFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusFactura\SudmenudeFacturarFin\MenuEliminarFac\EliminarTodas.resx">
+      <DependentUpon>EliminarTodas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusFactura\SudmenudeFacturarFin\MenuEliminarFac\EliminarUna.resx">
+      <DependentUpon>EliminarUna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusFactura\SudmenudeFacturarFin\ViewFactura.resx">
+      <DependentUpon>ViewFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusFactura\SuDMenuFactura\Bancos.resx">
+      <DependentUpon>Bancos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusFactura\SuDMenuFactura\Efectivo.resx">
+      <DependentUpon>Efectivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusFactura\SuDMenuFactura\Paypal.resx">
+      <DependentUpon>Paypal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusProducto\Consultar.resx">
+      <DependentUpon>Consultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusProducto\InfoBasica.resx">
+      <DependentUpon>InfoBasica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusProducto\ModifyConsul.resx">
+      <DependentUpon>ModifyConsul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubMenusProducto\MostrarProduc.resx">
+      <DependentUpon>MostrarProduc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmMenuAlamcen\herramientasAlma.resx">
+      <DependentUpon>herramientasAlma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmMenuAlamcen\MenufILTRO\AgregarAHeramientas.resx">
+      <DependentUpon>AgregarAHeramientas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmMenuAlamcen\MenufILTRO\AreasHerramienta.resx">
+      <DependentUpon>AreasHerramienta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmMenuAlamcen\MenufILTRO\ViewHer.resx">
+      <DependentUpon>ViewHer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmMenuAlamcen\MenufILTRO\ViewHerramienta.resx">
+      <DependentUpon>ViewHerramienta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIdeo.resx">
+      <DependentUpon>VIdeo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RestaHuranteDataSet.xsc">
+      <DependentUpon>RestaHuranteDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RestaHuranteDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RestaHuranteDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RestaHuranteDataSet.xss">
+      <DependentUpon>RestaHuranteDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdobeStock_199693074_Preview.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdobeStock_294263329_Preview.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1274382_box_product_delivery_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5220838_back_card_credit_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5779818_bitcoin_cryptocurrency_wallet_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4156502_select_shop_shopping cart_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6110741_black_hole_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5752250_cardboard_google_vr_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5734444_business_man_properties_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3132455_analytics_data_eye_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\754904_arrow_down_next_menu_more_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\754904_arrow_down_next_menu_more_icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4337239_close_close button_delete_remove_x_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7804870_shrink_reduce_minimiza_arrow_resize_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8786624_minimized_minimize_screen_maximize_tools_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\584bf0c8a62aaa830c43edb4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\968-9687047_descarga-estos-imgenes-de-cdigo-de-barras-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5353380.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3226007_administration_leadership_organization_team_team leader_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10285440_delete_cross_cancel_button_decline_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10285518_maximize_button_view_window_full_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9809759_minimize_button_website_interface_app_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5016279_administration_business_management_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2028709_circular_flag_japan_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3835.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3835-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\26bf281ff1a4b2acbe988667fda013fe-ilustracion-de-mesa-de-madera-redonda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-big-isolated-motorcycle-vector-colorful-icons-flat-illustrations-of-delivery-by-png-image_7255128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-catering-takeaway-icon-png-image_5415697.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2331941.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paypal_2014_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1055085_compose_edit_paper_pencil_write_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngaaa.com-1513053.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Configuracion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1160515.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vender-empresa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdobeStock_190618859_Preview.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aumentar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jugador-suplente %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sustitucion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jugador-suplente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\senal-de-alerta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gestion-web.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LightSeaGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PaleTurquoise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TEL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lapiz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\creador-de-contenido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etiqueta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etiqueta %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pase-de-prensa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hombre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correo-electronico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar-con-llave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar-con-llave %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-correcta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar-con-llave %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha-correcta %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\560916 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\felicidad %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_eliminate_1102 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MediaPlayer">
+      <Guid>{22D6F304-B0F6-11D0-94AB-0080C74C7E95}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486348819-back-backwards-repeat-arrows-arrow-blue_80473.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486348811-music-note-play-melody-blue_80471.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486348822-music-play-pause-control-go-arrow-blue_80476.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486348818-forward-arrows-arrow-front-go-blue_80478.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PDF_24287.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print_icon-icons.com_74701.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donacion-de-organos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bitcoin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mastercard_payment_method_icon_142750.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\american-express.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop_folder_20366.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windows-desktop-os-software_icon-icons.com_59262.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Londres.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-Icon-PNG-HD-Quality.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Submenu\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
