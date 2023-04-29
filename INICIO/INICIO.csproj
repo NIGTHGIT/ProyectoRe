@@ -886,6 +886,7 @@
     <None Include="Resources\Delete-Icon-PNG-HD-Quality.png" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="-VJose\" />
     <Folder Include="Submenu\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
