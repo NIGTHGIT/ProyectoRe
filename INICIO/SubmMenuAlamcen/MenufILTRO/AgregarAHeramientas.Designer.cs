@@ -63,12 +63,13 @@ namespace INICIO.SubmMenuAlamcen.MenufILTRO
             // Nameherra
             // 
             this.Nameherra.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Nameherra.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.Nameherra.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
             this.Nameherra.Location = new System.Drawing.Point(120, 134);
             this.Nameherra.Multiline = true;
             this.Nameherra.Name = "Nameherra";
             this.Nameherra.Size = new System.Drawing.Size(302, 23);
             this.Nameherra.TabIndex = 4;
+            this.Nameherra.Text = "WEWE";
             // 
             // label1
             // 
@@ -165,22 +166,22 @@ namespace INICIO.SubmMenuAlamcen.MenufILTRO
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(293, 277);
+            this.label5.Location = new System.Drawing.Point(280, 272);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(83, 17);
+            this.label5.Size = new System.Drawing.Size(105, 22);
             this.label5.TabIndex = 13;
             this.label5.Text = "Precio total:";
             // 
             // ptotal
             // 
             this.ptotal.AutoSize = true;
-            this.ptotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.ptotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
             this.ptotal.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ptotal.Location = new System.Drawing.Point(375, 277);
+            this.ptotal.Location = new System.Drawing.Point(384, 273);
             this.ptotal.Name = "ptotal";
-            this.ptotal.Size = new System.Drawing.Size(36, 17);
+            this.ptotal.Size = new System.Drawing.Size(45, 22);
             this.ptotal.TabIndex = 14;
             this.ptotal.Text = "100 ";
             // 

@@ -90,9 +90,10 @@ namespace INICIO.SubmMenuAlamcen.MenufILTRO
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SqlCommand ciomado = new SqlCommand($"UPDATE Heramientas SET CanDispo = {i}, PrecioTOTAL = {int.Parse(Precio.Text)}, Descripcion = '{Descrip.Text}',PrecioxUnidad = {int.Parse(PreicoXunidad.Text)} ", CON.Conexifon());
+            SqlCommand ciomado = new SqlCommand($"UPDATE Heramientas SET CanDispo = {i}, PrecioTOTAL = {int.Parse(Precio.Text)}, Descripcion = '{Descrip.Text}',PrecioxUnidad = {int.Parse(PreicoXunidad.Text)} where ID = {ID} ", CON.Conexifon());
             SqlDataReader RED = ciomado.ExecuteReader();
             RED.Read();
+            MessageBox.Show("Se modifico correctamente");
         }
 
         private void PreicoXunidad_TextChanged(object sender, EventArgs e)
