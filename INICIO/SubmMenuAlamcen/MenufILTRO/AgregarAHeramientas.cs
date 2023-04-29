@@ -54,6 +54,8 @@ namespace INICIO.SubmMenuAlamcen.MenufILTRO
                 SqlDataReader RED = comado.ExecuteReader();
                 RED.Read();
                 MessageBox.Show("Se agrego con exito!!", "Añadir", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Nameherra.Clear();
+
             }
             catch (Exception kp)
             {
