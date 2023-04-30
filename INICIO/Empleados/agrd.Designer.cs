@@ -51,7 +51,6 @@ namespace INICIO.Empleados
             // comboBox1
             // 
             this.comboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(39, 132);
             this.comboBox1.Name = "comboBox1";
