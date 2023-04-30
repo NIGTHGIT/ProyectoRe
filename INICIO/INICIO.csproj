@@ -886,6 +886,7 @@
     <None Include="Resources\Delete-Icon-PNG-HD-Quality.png" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="-vCesar\" />
     <Folder Include="-VJose\" />
     <Folder Include="Submenu\" />
   </ItemGroup>
