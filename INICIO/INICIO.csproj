@@ -889,6 +889,7 @@
     <Folder Include="-vCesar\" />
     <Folder Include="-VJose\" />
     <Folder Include="Submenu\" />
+    <Folder Include="V-Cesar2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
