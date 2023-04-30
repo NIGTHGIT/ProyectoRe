@@ -92,6 +92,12 @@
     <Compile Include="Empleado.Designer.cs">
       <DependentUpon>Empleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Empleados\agrd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\agrd.Designer.cs">
+      <DependentUpon>agrd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Empleados\Configuracion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -163,6 +169,18 @@
     </Compile>
     <Compile Include="Empleados\Suplentes.Designer.cs">
       <DependentUpon>Suplentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\TATERD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\TATERD.Designer.cs">
+      <DependentUpon>TATERD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empleados\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Empleados\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
     <Compile Include="Empleados\userDelate.cs">
       <SubType>Form</SubType>
@@ -406,6 +424,9 @@
     <EmbeddedResource Include="Empleado.resx">
       <DependentUpon>Empleado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\agrd.resx">
+      <DependentUpon>agrd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Empleados\Configuracion.resx">
       <DependentUpon>Configuracion.cs</DependentUpon>
     </EmbeddedResource>
@@ -438,6 +459,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Empleados\Suplentes.resx">
       <DependentUpon>Suplentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\TATERD.resx">
+      <DependentUpon>TATERD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Empleados\userDelate.resx">
       <DependentUpon>userDelate.cs</DependentUpon>

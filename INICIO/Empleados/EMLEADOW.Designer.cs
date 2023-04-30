@@ -31,24 +31,6 @@ namespace INICIO.Empleados
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel1DE = new System.Windows.Forms.Panel();
-            this.textDirecion = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textNombre = new System.Windows.Forms.TextBox();
-            this.comboTrabajo = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textApellido = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textEdad = new System.Windows.Forms.TextBox();
-            this.textCedula = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -69,222 +51,48 @@ namespace INICIO.Empleados
             this.textBoXDirecion = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
+            this.panel1DE = new System.Windows.Forms.Panel();
+            this.textDirecion = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textNombre = new System.Windows.Forms.TextBox();
+            this.comboTrabajo = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textApellido = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textEdad = new System.Windows.Forms.TextBox();
+            this.textCedula = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.panel1DE.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.panel1DE);
             this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(869, 546);
             this.panel1.TabIndex = 0;
-            // 
-            // panel1DE
-            // 
-            this.panel1DE.Controls.Add(this.textDirecion);
-            this.panel1DE.Controls.Add(this.button1);
-            this.panel1DE.Controls.Add(this.textNombre);
-            this.panel1DE.Controls.Add(this.comboTrabajo);
-            this.panel1DE.Controls.Add(this.label1);
-            this.panel1DE.Controls.Add(this.label5);
-            this.panel1DE.Controls.Add(this.textApellido);
-            this.panel1DE.Controls.Add(this.label6);
-            this.panel1DE.Controls.Add(this.label2);
-            this.panel1DE.Controls.Add(this.textEdad);
-            this.panel1DE.Controls.Add(this.textCedula);
-            this.panel1DE.Controls.Add(this.label3);
-            this.panel1DE.Controls.Add(this.label4);
-            this.panel1DE.Location = new System.Drawing.Point(66, 12);
-            this.panel1DE.Name = "panel1DE";
-            this.panel1DE.Size = new System.Drawing.Size(777, 440);
-            this.panel1DE.TabIndex = 39;
-            // 
-            // textDirecion
-            // 
-            this.textDirecion.BackColor = System.Drawing.Color.FloralWhite;
-            this.textDirecion.Location = new System.Drawing.Point(333, 142);
-            this.textDirecion.Name = "textDirecion";
-            this.textDirecion.Size = new System.Drawing.Size(316, 20);
-            this.textDirecion.TabIndex = 7;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(303, 377);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 38;
-            this.button1.Text = "Sigirnte";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // textNombre
-            // 
-            this.textNombre.BackColor = System.Drawing.Color.FloralWhite;
-            this.textNombre.Location = new System.Drawing.Point(64, 51);
-            this.textNombre.Name = "textNombre";
-            this.textNombre.Size = new System.Drawing.Size(233, 20);
-            this.textNombre.TabIndex = 0;
-            // 
-            // comboTrabajo
-            // 
-            this.comboTrabajo.BackColor = System.Drawing.Color.FloralWhite;
-            this.comboTrabajo.FormattingEnabled = true;
-            this.comboTrabajo.Location = new System.Drawing.Point(333, 242);
-            this.comboTrabajo.Name = "comboTrabajo";
-            this.comboTrabajo.Size = new System.Drawing.Size(316, 21);
-            this.comboTrabajo.TabIndex = 13;
-            this.comboTrabajo.SelectedIndexChanged += new System.EventHandler(this.comboCiudad_SelectedIndexChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(173, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Nombre";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(482, 208);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(43, 13);
-            this.label5.TabIndex = 12;
-            this.label5.Text = "Trabajo";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
-            // textApellido
-            // 
-            this.textApellido.BackColor = System.Drawing.Color.FloralWhite;
-            this.textApellido.Location = new System.Drawing.Point(333, 51);
-            this.textApellido.Name = "textApellido";
-            this.textApellido.Size = new System.Drawing.Size(316, 20);
-            this.textApellido.TabIndex = 3;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(164, 226);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(32, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Edad";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(481, 35);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Apellido";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // textEdad
-            // 
-            this.textEdad.BackColor = System.Drawing.Color.FloralWhite;
-            this.textEdad.Location = new System.Drawing.Point(64, 242);
-            this.textEdad.Name = "textEdad";
-            this.textEdad.Size = new System.Drawing.Size(233, 20);
-            this.textEdad.TabIndex = 9;
-            this.textEdad.TextChanged += new System.EventHandler(this.textEdad_TextChanged);
-            // 
-            // textCedula
-            // 
-            this.textCedula.BackColor = System.Drawing.Color.FloralWhite;
-            this.textCedula.Location = new System.Drawing.Point(64, 142);
-            this.textCedula.Name = "textCedula";
-            this.textCedula.Size = new System.Drawing.Size(233, 20);
-            this.textCedula.TabIndex = 5;
-            this.textCedula.TextChanged += new System.EventHandler(this.textCedula_TextChanged);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(479, 113);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 13);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Direcion";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(173, 126);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Cedula";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.pictureBox3);
-            this.panel4.Controls.Add(this.label14);
-            this.panel4.Controls.Add(this.pictureBox2);
-            this.panel4.Location = new System.Drawing.Point(13, 3);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(856, 485);
-            this.panel4.TabIndex = 42;
-            this.panel4.Visible = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::INICIO.Properties.Resources.hombre;
-            this.pictureBox3.Location = new System.Drawing.Point(651, 257);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(131, 143);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 25;
-            this.pictureBox3.TabStop = false;
-            // 
-            // label14
-            // 
-            this.label14.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(572, 60);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(263, 135);
-            this.label14.TabIndex = 24;
-            this.label14.Text = "Grasias por tu registro y grasias por ser un nuevo partisipante  de la Empresa";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::INICIO.Properties.Resources.felicidad__1_;
-            this.pictureBox2.Location = new System.Drawing.Point(44, 60);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(521, 340);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // panel3
             // 
@@ -522,6 +330,198 @@ namespace INICIO.Empleados
             this.label12.TabIndex = 19;
             this.label12.Text = "DIrecion de envio";
             // 
+            // panel1DE
+            // 
+            this.panel1DE.Controls.Add(this.textDirecion);
+            this.panel1DE.Controls.Add(this.button1);
+            this.panel1DE.Controls.Add(this.textNombre);
+            this.panel1DE.Controls.Add(this.comboTrabajo);
+            this.panel1DE.Controls.Add(this.label1);
+            this.panel1DE.Controls.Add(this.label5);
+            this.panel1DE.Controls.Add(this.textApellido);
+            this.panel1DE.Controls.Add(this.label6);
+            this.panel1DE.Controls.Add(this.label2);
+            this.panel1DE.Controls.Add(this.textEdad);
+            this.panel1DE.Controls.Add(this.textCedula);
+            this.panel1DE.Controls.Add(this.label3);
+            this.panel1DE.Controls.Add(this.label4);
+            this.panel1DE.Location = new System.Drawing.Point(66, 12);
+            this.panel1DE.Name = "panel1DE";
+            this.panel1DE.Size = new System.Drawing.Size(777, 440);
+            this.panel1DE.TabIndex = 39;
+            // 
+            // textDirecion
+            // 
+            this.textDirecion.BackColor = System.Drawing.Color.FloralWhite;
+            this.textDirecion.Location = new System.Drawing.Point(333, 142);
+            this.textDirecion.Name = "textDirecion";
+            this.textDirecion.Size = new System.Drawing.Size(316, 20);
+            this.textDirecion.TabIndex = 7;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(303, 377);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 38;
+            this.button1.Text = "Sigirnte";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textNombre
+            // 
+            this.textNombre.BackColor = System.Drawing.Color.FloralWhite;
+            this.textNombre.Location = new System.Drawing.Point(64, 51);
+            this.textNombre.Name = "textNombre";
+            this.textNombre.Size = new System.Drawing.Size(233, 20);
+            this.textNombre.TabIndex = 0;
+            // 
+            // comboTrabajo
+            // 
+            this.comboTrabajo.BackColor = System.Drawing.Color.FloralWhite;
+            this.comboTrabajo.FormattingEnabled = true;
+            this.comboTrabajo.Location = new System.Drawing.Point(333, 242);
+            this.comboTrabajo.Name = "comboTrabajo";
+            this.comboTrabajo.Size = new System.Drawing.Size(316, 21);
+            this.comboTrabajo.TabIndex = 13;
+            this.comboTrabajo.SelectedIndexChanged += new System.EventHandler(this.comboCiudad_SelectedIndexChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(173, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Nombre";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(482, 208);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(43, 13);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Trabajo";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // textApellido
+            // 
+            this.textApellido.BackColor = System.Drawing.Color.FloralWhite;
+            this.textApellido.Location = new System.Drawing.Point(333, 51);
+            this.textApellido.Name = "textApellido";
+            this.textApellido.Size = new System.Drawing.Size(316, 20);
+            this.textApellido.TabIndex = 3;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(164, 226);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(32, 13);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Edad";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(481, 35);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Apellido";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // textEdad
+            // 
+            this.textEdad.BackColor = System.Drawing.Color.FloralWhite;
+            this.textEdad.Location = new System.Drawing.Point(64, 242);
+            this.textEdad.Name = "textEdad";
+            this.textEdad.Size = new System.Drawing.Size(233, 20);
+            this.textEdad.TabIndex = 9;
+            this.textEdad.TextChanged += new System.EventHandler(this.textEdad_TextChanged);
+            // 
+            // textCedula
+            // 
+            this.textCedula.BackColor = System.Drawing.Color.FloralWhite;
+            this.textCedula.Location = new System.Drawing.Point(64, 142);
+            this.textCedula.Name = "textCedula";
+            this.textCedula.Size = new System.Drawing.Size(233, 20);
+            this.textCedula.TabIndex = 5;
+            this.textCedula.TextChanged += new System.EventHandler(this.textCedula_TextChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(479, 113);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 13);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Direcion";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(173, 126);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(40, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Cedula";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.pictureBox3);
+            this.panel4.Controls.Add(this.label14);
+            this.panel4.Controls.Add(this.pictureBox2);
+            this.panel4.Location = new System.Drawing.Point(13, 3);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(856, 485);
+            this.panel4.TabIndex = 42;
+            this.panel4.Visible = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::INICIO.Properties.Resources.hombre;
+            this.pictureBox3.Location = new System.Drawing.Point(651, 257);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(131, 143);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 25;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label14
+            // 
+            this.label14.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.Location = new System.Drawing.Point(572, 60);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(263, 135);
+            this.label14.TabIndex = 24;
+            this.label14.Text = "Grasias por tu registro y grasias por ser un nuevo partisipante  de la Empresa";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::INICIO.Properties.Resources.felicidad__1_;
+            this.pictureBox2.Location = new System.Drawing.Point(44, 60);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(521, 340);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
@@ -537,16 +537,16 @@ namespace INICIO.Empleados
             this.Text = "EMLEADOW";
             this.Load += new System.EventHandler(this.EMLEADOW_Load);
             this.panel1.ResumeLayout(false);
-            this.panel1DE.ResumeLayout(false);
-            this.panel1DE.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel1DE.ResumeLayout(false);
+            this.panel1DE.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 

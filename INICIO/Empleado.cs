@@ -109,7 +109,7 @@ namespace INICIO
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Modificar asb = new Modificar();
+            TATERD asb = new TATERD();
             asb.Show();
             this.Close();
         }
