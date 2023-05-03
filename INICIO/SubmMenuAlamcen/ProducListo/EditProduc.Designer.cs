@@ -35,8 +35,11 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.max = new System.Windows.Forms.PictureBox();
             this.min = new System.Windows.Forms.PictureBox();
             this.Can = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Gur = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.max)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.min)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -118,12 +121,38 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.Can.TabIndex = 10;
             this.Can.Text = "0";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::INICIO.Properties.Resources.Delete_Icon_PNG_HD_Quality;
+            this.pictureBox1.Location = new System.Drawing.Point(447, 183);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(55, 47);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // Gur
+            // 
+            this.Gur.AutoSize = true;
+            this.Gur.LinkColor = System.Drawing.Color.White;
+            this.Gur.Location = new System.Drawing.Point(384, 9);
+            this.Gur.Name = "Gur";
+            this.Gur.Size = new System.Drawing.Size(109, 13);
+            this.Gur.TabIndex = 15;
+            this.Gur.TabStop = true;
+            this.Gur.Text = "Guardado automatico\r\n";
+            // 
             // EditProduc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(505, 232);
+            this.Controls.Add(this.Gur);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.max);
             this.Controls.Add(this.min);
@@ -135,6 +164,7 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.Text = "EditProduc";
             ((System.ComponentModel.ISupportInitialize)(this.max)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.min)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,5 +178,7 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
         private System.Windows.Forms.PictureBox max;
         private System.Windows.Forms.PictureBox min;
         private System.Windows.Forms.Label Can;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.LinkLabel Gur;
     }
 }
