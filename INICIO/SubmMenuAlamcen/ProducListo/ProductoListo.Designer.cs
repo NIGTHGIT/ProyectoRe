@@ -30,52 +30,55 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
         private void InitializeComponent()
         {
             this.Caategoria_text = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.ProductoBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.Can = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.Veri_ = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.label17 = new System.Windows.Forms.Label();
+            this.CriticasCount = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.RecetaBox = new System.Windows.Forms.ComboBox();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -92,14 +95,14 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.Caategoria_text.Size = new System.Drawing.Size(434, 21);
             this.Caategoria_text.TabIndex = 0;
             // 
-            // comboBox1
+            // ProductoBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.ItemHeight = 13;
-            this.comboBox1.Location = new System.Drawing.Point(336, 124);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(434, 21);
-            this.comboBox1.TabIndex = 1;
+            this.ProductoBox.FormattingEnabled = true;
+            this.ProductoBox.ItemHeight = 13;
+            this.ProductoBox.Location = new System.Drawing.Point(336, 124);
+            this.ProductoBox.Name = "ProductoBox";
+            this.ProductoBox.Size = new System.Drawing.Size(434, 21);
+            this.ProductoBox.TabIndex = 1;
             // 
             // label1
             // 
@@ -123,16 +126,6 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.label2.TabIndex = 3;
             this.label2.Text = "Producto";
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.textBox1.Location = new System.Drawing.Point(336, 189);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(434, 22);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Receta_#1231";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -144,16 +137,16 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.label3.TabIndex = 5;
             this.label3.Text = "Receta";
             // 
-            // label4
+            // Can
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(451, 278);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(20, 24);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "0";
+            this.Can.AutoSize = true;
+            this.Can.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.Can.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Can.Location = new System.Drawing.Point(451, 278);
+            this.Can.Name = "Can";
+            this.Can.Size = new System.Drawing.Size(20, 24);
+            this.Can.TabIndex = 6;
+            this.Can.Text = "0";
             // 
             // label5
             // 
@@ -166,17 +159,17 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.label5.TabIndex = 9;
             this.label5.Text = "Cantidad ";
             // 
-            // checkBox1
+            // Veri_
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.checkBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.checkBox1.Location = new System.Drawing.Point(336, 341);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(269, 21);
-            this.checkBox1.TabIndex = 10;
-            this.checkBox1.Text = "Notificar cuando la cantidad llegue a 5";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.Veri_.AutoSize = true;
+            this.Veri_.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.Veri_.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Veri_.Location = new System.Drawing.Point(336, 341);
+            this.Veri_.Name = "Veri_";
+            this.Veri_.Size = new System.Drawing.Size(269, 21);
+            this.Veri_.TabIndex = 10;
+            this.Veri_.Text = "Notificar cuando la cantidad llegue a 5";
+            this.Veri_.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -189,6 +182,7 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.button1.TabIndex = 11;
             this.button1.Text = "Agregar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // flowLayoutPanel1
             // 
@@ -198,7 +192,7 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.flowLayoutPanel1.Controls.Add(this.panel3);
             this.flowLayoutPanel1.Controls.Add(this.panel4);
             this.flowLayoutPanel1.Controls.Add(this.panel5);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 55);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 84);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(302, 360);
             this.flowLayoutPanel1.TabIndex = 19;
@@ -213,6 +207,17 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(271, 49);
             this.panel1.TabIndex = 18;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::INICIO.Properties.Resources._5353380;
+            this.pictureBox5.Location = new System.Drawing.Point(231, 8);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(34, 41);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 16;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // label6
             // 
@@ -246,6 +251,16 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.panel2.Size = new System.Drawing.Size(271, 49);
             this.panel2.TabIndex = 19;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::INICIO.Properties.Resources._5353380;
+            this.pictureBox4.Location = new System.Drawing.Point(231, 8);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(34, 41);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 16;
+            this.pictureBox4.TabStop = false;
+            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -277,6 +292,16 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(271, 49);
             this.panel3.TabIndex = 20;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::INICIO.Properties.Resources._5353380;
+            this.pictureBox6.Location = new System.Drawing.Point(231, 8);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(34, 41);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 16;
+            this.pictureBox6.TabStop = false;
             // 
             // label10
             // 
@@ -310,6 +335,16 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.panel4.Size = new System.Drawing.Size(271, 49);
             this.panel4.TabIndex = 21;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::INICIO.Properties.Resources._5353380;
+            this.pictureBox7.Location = new System.Drawing.Point(231, 8);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(34, 41);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 16;
+            this.pictureBox7.TabStop = false;
+            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -341,6 +376,16 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(271, 49);
             this.panel5.TabIndex = 22;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::INICIO.Properties.Resources._5353380;
+            this.pictureBox8.Location = new System.Drawing.Point(231, 8);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(34, 41);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 16;
+            this.pictureBox8.TabStop = false;
             // 
             // label14
             // 
@@ -374,57 +419,6 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.label16.TabIndex = 20;
             this.label16.Text = "Lista Productos R.";
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::INICIO.Properties.Resources._5353380;
-            this.pictureBox5.Location = new System.Drawing.Point(231, 8);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(34, 41);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 16;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::INICIO.Properties.Resources._5353380;
-            this.pictureBox4.Location = new System.Drawing.Point(231, 8);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(34, 41);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 16;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::INICIO.Properties.Resources._5353380;
-            this.pictureBox6.Location = new System.Drawing.Point(231, 8);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(34, 41);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 16;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::INICIO.Properties.Resources._5353380;
-            this.pictureBox7.Location = new System.Drawing.Point(231, 8);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(34, 41);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 16;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::INICIO.Properties.Resources._5353380;
-            this.pictureBox8.Location = new System.Drawing.Point(231, 8);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(34, 41);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 16;
-            this.pictureBox8.TabStop = false;
-            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::INICIO.Properties.Resources._419660;
@@ -444,6 +438,7 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -454,6 +449,7 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox9
             // 
@@ -466,17 +462,68 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
-            // label17
+            // CriticasCount
             // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Red;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.label17.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label17.Location = new System.Drawing.Point(929, 30);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(20, 24);
-            this.label17.TabIndex = 22;
-            this.label17.Text = "1";
+            this.CriticasCount.AutoSize = true;
+            this.CriticasCount.BackColor = System.Drawing.Color.Red;
+            this.CriticasCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
+            this.CriticasCount.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CriticasCount.Location = new System.Drawing.Point(929, 30);
+            this.CriticasCount.Name = "CriticasCount";
+            this.CriticasCount.Size = new System.Drawing.Size(20, 24);
+            this.CriticasCount.TabIndex = 22;
+            this.CriticasCount.Text = "1";
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.ActiveLinkColor = System.Drawing.Color.Maroon;
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.DisabledLinkColor = System.Drawing.Color.White;
+            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
+            this.linkLabel1.Location = new System.Drawing.Point(12, 63);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(54, 17);
+            this.linkLabel1.TabIndex = 23;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Criticas";
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.ActiveLinkColor = System.Drawing.Color.Maroon;
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.DisabledLinkColor = System.Drawing.Color.White;
+            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.linkLabel2.LinkColor = System.Drawing.Color.White;
+            this.linkLabel2.Location = new System.Drawing.Point(72, 63);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(53, 17);
+            this.linkLabel2.TabIndex = 24;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Activas";
+            // 
+            // linkLabel3
+            // 
+            this.linkLabel3.ActiveLinkColor = System.Drawing.Color.Maroon;
+            this.linkLabel3.AutoSize = true;
+            this.linkLabel3.DisabledLinkColor = System.Drawing.Color.White;
+            this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.linkLabel3.LinkColor = System.Drawing.Color.White;
+            this.linkLabel3.Location = new System.Drawing.Point(131, 63);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(23, 17);
+            this.linkLabel3.TabIndex = 25;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "All";
+            // 
+            // RecetaBox
+            // 
+            this.RecetaBox.FormattingEnabled = true;
+            this.RecetaBox.ItemHeight = 13;
+            this.RecetaBox.Location = new System.Drawing.Point(336, 189);
+            this.RecetaBox.Name = "RecetaBox";
+            this.RecetaBox.Size = new System.Drawing.Size(434, 21);
+            this.RecetaBox.TabIndex = 26;
             // 
             // ProductoListo
             // 
@@ -484,22 +531,25 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(986, 437);
-            this.Controls.Add(this.label17);
+            this.Controls.Add(this.RecetaBox);
+            this.Controls.Add(this.linkLabel3);
+            this.Controls.Add(this.linkLabel2);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.CriticasCount);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.Veri_);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.Can);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.ProductoBox);
             this.Controls.Add(this.Caategoria_text);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ProductoListo";
@@ -507,18 +557,18 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -532,16 +582,15 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
         #endregion
 
         private System.Windows.Forms.ComboBox Caategoria_text;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox ProductoBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label Can;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox Veri_;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
@@ -567,6 +616,10 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label CriticasCount;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel linkLabel3;
+        private System.Windows.Forms.ComboBox RecetaBox;
     }
 }
