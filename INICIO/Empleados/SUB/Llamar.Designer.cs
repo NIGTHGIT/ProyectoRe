@@ -144,6 +144,8 @@ namespace INICIO.Empleados.SUB
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.DarkCyan;
+            this.pictureBox2.BackgroundImage = global::INICIO.Properties.Resources.AdobeStock_199693074_Preview;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Image = global::INICIO.Properties.Resources._14578671061b831_removebg_preview;
             this.pictureBox2.Location = new System.Drawing.Point(0, -11);
             this.pictureBox2.Name = "pictureBox2";

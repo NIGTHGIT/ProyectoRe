@@ -62,7 +62,9 @@ namespace INICIO
         }
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Inicio SSS = new Inicio();
+            SSS.Show();
+            this.Close();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
