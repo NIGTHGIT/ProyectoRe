@@ -974,5 +974,8 @@
   <ItemGroup>
     <None Include="Resources\llamada-llamado.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bueno-hola.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -503,6 +503,16 @@ namespace INICIO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bueno_hola {
+            get {
+                object obj = ResourceManager.GetObject("bueno-hola", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cerrar_con_llave {
             get {
                 object obj = ResourceManager.GetObject("cerrar-con-llave", resourceCulture);

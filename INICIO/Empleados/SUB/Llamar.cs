@@ -45,5 +45,20 @@ namespace INICIO.Empleados.SUB
 
             }
         }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            if (pictureBox9.Visible == true) {
+                pictureBox9.Visible = false;
+            
+            }
+            else
+            {
+                pictureBox9.Visible = true;
+
+            }
+
+        }
     }
 }
+   
