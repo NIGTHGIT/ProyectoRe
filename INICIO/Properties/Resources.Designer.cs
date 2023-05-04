@@ -123,6 +123,16 @@ namespace INICIO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _14578671061b831_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("14578671061b831-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1486348811_music_note_play_melody_blue_80471 {
             get {
                 object obj = ResourceManager.GetObject("1486348811-music-note-play-melody-blue_80471", resourceCulture);
@@ -156,6 +166,16 @@ namespace INICIO.Properties {
         internal static System.Drawing.Bitmap _1486348822_music_play_pause_control_go_arrow_blue_80476 {
             get {
                 object obj = ResourceManager.GetObject("1486348822-music-play-pause-control-go-arrow-blue_80476", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _15017_bocadillo_ensalada_lechuga_3840x2160 {
+            get {
+                object obj = ResourceManager.GetObject("15017-bocadillo-ensalada-lechuga-3840x2160", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,6 +363,16 @@ namespace INICIO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _697b023b_64a5_49a0_8059_27b963453fb1 {
+            get {
+                object obj = ResourceManager.GetObject("697b023b-64a5-49a0-8059-27b963453fb1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _754904_arrow_down_next_menu_more_icon {
             get {
                 object obj = ResourceManager.GetObject("754904_arrow_down_next_menu_more_icon", resourceCulture);
@@ -396,6 +426,16 @@ namespace INICIO.Properties {
         internal static System.Drawing.Bitmap _9809759_minimize_button_website_interface_app_icon {
             get {
                 object obj = ResourceManager.GetObject("9809759_minimize_button_website_interface_app_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _Pngtree_indonesian_padang_restaurant_8922999_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("_Pngtree_indonesian_padang_restaurant_8922999-removebg-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -613,6 +653,16 @@ namespace INICIO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HD_wallpaper_off_on_on_off {
+            get {
+                object obj = ResourceManager.GetObject("HD-wallpaper-off-on-on-off", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hombre {
             get {
                 object obj = ResourceManager.GetObject("hombre", resourceCulture);
@@ -636,6 +686,16 @@ namespace INICIO.Properties {
         internal static System.Drawing.Bitmap image_removebg_preview1 {
             get {
                 object obj = ResourceManager.GetObject("image-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_466178003_1024x1024 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-466178003-1024x1024", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -683,9 +743,39 @@ namespace INICIO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap llamada_llamado {
+            get {
+                object obj = ResourceManager.GetObject("llamada-llamado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap llamada_telefonica {
+            get {
+                object obj = ResourceManager.GetObject("llamada-telefonica", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Londres {
             get {
                 object obj = ResourceManager.GetObject("Londres", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MacBook_Off_icon_37263 {
+            get {
+                object obj = ResourceManager.GetObject("MacBook-Off-icon_37263", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -794,6 +884,59 @@ namespace INICIO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pngtree_chatting_flat_icon_png_image_3985243_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-chatting-flat-icon-png-image_3985243-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_colorful_text_shape_box_tag_banner_template_png_image_3777990_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-colorful-text-shape-box-tag-banner-template-png-image_3777990-removebg-pr" +
+                        "eview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_golden_mobile_phone_model_psd_transparent_bottom_image_1329284_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-golden-mobile-phone-model-psd-transparent-bottom-image_1329284-removebg-p" +
+                        "review (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_modern_custom_shape_discount_sale_banner_and_tag_png_png_image_4518891_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-modern-custom-shape-discount-sale-banner-and-tag-png-png-image_4518891-re" +
+                        "movebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap power_77952 {
+            get {
+                object obj = ResourceManager.GetObject("power_77952", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Print_icon_icons_com_74701 {
             get {
                 object obj = ResourceManager.GetObject("Print_icon-icons.com_74701", resourceCulture);
@@ -827,6 +970,16 @@ namespace INICIO.Properties {
         internal static System.Drawing.Bitmap senal_de_alerta {
             get {
                 object obj = ResourceManager.GetObject("senal-de-alerta", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shutdown_button_wallpaper_preview {
+            get {
+                object obj = ResourceManager.GetObject("shutdown-button-wallpaper-preview", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -877,6 +1030,16 @@ namespace INICIO.Properties {
         internal static System.Drawing.Bitmap visa {
             get {
                 object obj = ResourceManager.GetObject("visa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_04_28_at_8_11_42_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-04-28 at 8.11.42 PM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -152,6 +152,12 @@
     <Compile Include="Empleados\suA.Designer.cs">
       <DependentUpon>suA.cs</DependentUpon>
     </Compile>
+    <Compile Include="Empleados\SUB\Llamar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Empleados\SUB\Llamar.Designer.cs">
+      <DependentUpon>Llamar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Empleados\SUB\SUAGRE.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -450,6 +456,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Empleados\Renunciar.resx">
       <DependentUpon>Renunciar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados\SUB\Llamar.resx">
+      <DependentUpon>Llamar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Empleados\SUB\SUAGRE.resx">
       <DependentUpon>SUAGRE.cs</DependentUpon>
@@ -916,6 +925,54 @@
     <Folder Include="-VJose\" />
     <Folder Include="Mollllll\" />
     <Folder Include="Submenu\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-04-28 at 8.11.42 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_Pngtree_indonesian_padang_restaurant_8922999-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-colorful-text-shape-box-tag-banner-template-png-image_3777990-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-modern-custom-shape-discount-sale-banner-and-tag-png-png-image_4518891-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-golden-mobile-phone-model-psd-transparent-bottom-image_1329284-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-466178003-1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15017-bocadillo-ensalada-lechuga-3840x2160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14578671061b831-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-chatting-flat-icon-png-image_3985243-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MacBook-Off-icon_37263.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power_77952.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\697b023b-64a5-49a0-8059-27b963453fb1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llamada-telefonica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HD-wallpaper-off-on-on-off.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutdown-button-wallpaper-preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llamada-llamado.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

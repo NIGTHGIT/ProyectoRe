@@ -74,5 +74,11 @@ namespace INICIO.Empleados
         {
             Abrir2(new SUB.Supletes1());
         }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            Abrir2(new SUB.Llamar());
+
+        }
     }
 }

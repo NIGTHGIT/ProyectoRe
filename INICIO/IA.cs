@@ -34,10 +34,10 @@ namespace INICIO
             string userInput = userInputTextBox.Text;
 
             // Verificar si el usuario saludó
-            if (userInput.ToLower().Contains("hola") || userInput.ToLower().Contains("buenas"))
+            if (userInput.ToLower().Contains("hola") || userInput.ToLower().Contains("buenas") || userInput.ToLower().Contains("hello")  || userInput.ToLower().Contains(""))
             {
                 chatbotOutputLabel.Text = "¡Hola! ¿En qué puedo ayudarte?";
-            }
+            }  
             // Verificar si el usuario preguntó cómo está el chatbot
             else if (userInput.ToLower().Contains("cómo estás") || userInput.ToLower().Contains("cómo te sientes"))
             {
