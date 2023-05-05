@@ -13,10 +13,11 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
 {
     public partial class EditProduc : Form
     {
-        public EditProduc()
+        public EditProduc(int id)
         {
             InitializeComponent();
             this.CenterToScreen();
+            ID = id;
         }
 
         private int i;
@@ -46,7 +47,7 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
 
         private void guardar() {
             Gur.ForeColor = Color.Red;
-            SqlCommand comadno = new SqlCommand($"UPDATE ProducHechos set CantidadDispo = {int.Parse(Can.Text)}", CON.Conexifon());
+            SqlCommand comadno = new SqlCommand($"UPDATE ProducHechos set CantidadDispo = {int.Parse(Can.Text)} where ID = {ID}", CON.Conexifon());
             SqlDataReader ejecutar = comadno.ExecuteReader();
             ejecutar.Read();
             Gur.ForeColor = Color.White;
@@ -62,14 +63,25 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
 
 
         }
-
+        static int ID;
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Gur.ForeColor = Color.Red;
-            SqlCommand comadno = new SqlCommand($"DELETE ProducHechos where ID = 2", CON.Conexifon());
+            SqlCommand comadno = new SqlCommand($"DELETE ProducHechos where ID = {ID}", CON.Conexifon());
+            SqlDataReader ejecutar = comadno.ExecuteReader();
+            ejecutar.Read();    
+            Gur.ForeColor = Color.White;
+        }
+
+        private void EditProduc_Load(object sender, EventArgs e)
+        {
+            SqlCommand comadno = new SqlCommand($"SELECT * FROM  ProducHechos where ID = {ID}", CON.Conexifon());
             SqlDataReader ejecutar = comadno.ExecuteReader();
             ejecutar.Read();
-            Gur.ForeColor = Color.White;
+           var E = ejecutar["Producto"].ToString();
+            var E2 = ejecutar["CantidadDispo"].ToString();
+            nameProduc.Text = E;
+            Can.Text = E2; 
         }
     }
 }

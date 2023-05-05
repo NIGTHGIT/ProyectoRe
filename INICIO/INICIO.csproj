@@ -400,6 +400,18 @@
     <Compile Include="SubmMenuAlamcen\ProducListo\ProductoListo.Designer.cs">
       <DependentUpon>ProductoListo.cs</DependentUpon>
     </Compile>
+    <Compile Include="SubmMenuAlamcen\Stok\Stok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\Stok\Stok.Designer.cs">
+      <DependentUpon>Stok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\Stok\ViewStok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\Stok\ViewStok.Designer.cs">
+      <DependentUpon>ViewStok.cs</DependentUpon>
+    </Compile>
     <Compile Include="VIdeo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -577,6 +589,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SubmMenuAlamcen\ProducListo\ProductoListo.resx">
       <DependentUpon>ProductoListo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmMenuAlamcen\Stok\Stok.resx">
+      <DependentUpon>Stok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmMenuAlamcen\Stok\ViewStok.resx">
+      <DependentUpon>ViewStok.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VIdeo.resx">
       <DependentUpon>VIdeo.cs</DependentUpon>
