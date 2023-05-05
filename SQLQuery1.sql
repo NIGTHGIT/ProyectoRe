@@ -1,17 +1,15 @@
-Create table ProducHechos(
-  
-  ID int PRIMARY KEY IDENTITY(1,1),
-
-   Categoria varchar(200),
-   Producto varchar(200),
-   Receta varchar(200),
-   CantidadDispo varchar(200)
 
 
+
+
+CREATE TABLE  Stok(
+ ID INT PRIMARY KEY IDENTITY(1,1),
+ FechadefACTURA varchar(200),
+ Descrip varchar(5000)
 )
 
+    select * from Stok
 
-UPDATE ProducHechos set CantidadDispo = 
+   UPDATE Stok set FechadefACTURA  = '7&78', Descrip = '' where ID = 2
 
-DELETE ProducHechos where ID = 3
-Select * from ProducHechos
+

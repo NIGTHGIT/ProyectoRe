@@ -49,5 +49,10 @@ namespace INICIO
         {
             AbrirMenu(new SubmMenuAlamcen.ProducListo.ProductoListo());
         }
+
+        private void toolStripLabel3_Click(object sender, EventArgs e)
+        {
+            AbrirMenu(new SubmMenuAlamcen.Stok.Stok());
+        }
     }
 }

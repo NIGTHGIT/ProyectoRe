@@ -30,7 +30,7 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.nameProduc = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.max = new System.Windows.Forms.PictureBox();
             this.min = new System.Windows.Forms.PictureBox();
@@ -55,19 +55,19 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.label1.TabIndex = 3;
             this.label1.Text = "Producto";
             // 
-            // label2
+            // nameProduc
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.nameProduc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
-            this.label2.ForeColor = System.Drawing.Color.Turquoise;
-            this.label2.Location = new System.Drawing.Point(104, 68);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(180, 22);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Pizza de doble queso";
+            this.nameProduc.AutoSize = true;
+            this.nameProduc.BackColor = System.Drawing.Color.Transparent;
+            this.nameProduc.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.25F);
+            this.nameProduc.ForeColor = System.Drawing.Color.Turquoise;
+            this.nameProduc.Location = new System.Drawing.Point(104, 68);
+            this.nameProduc.Name = "nameProduc";
+            this.nameProduc.Size = new System.Drawing.Size(180, 22);
+            this.nameProduc.TabIndex = 4;
+            this.nameProduc.Text = "Pizza de doble queso";
             // 
             // label5
             // 
@@ -157,11 +157,12 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
             this.Controls.Add(this.max);
             this.Controls.Add(this.min);
             this.Controls.Add(this.Can);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.nameProduc);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "EditProduc";
-            this.Text = "EditProduc";
+            this.Text = "7";
+            this.Load += new System.EventHandler(this.EditProduc_Load);
             ((System.ComponentModel.ISupportInitialize)(this.max)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.min)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -173,7 +174,7 @@ namespace INICIO.SubmMenuAlamcen.ProducListo
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label nameProduc;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox max;
         private System.Windows.Forms.PictureBox min;

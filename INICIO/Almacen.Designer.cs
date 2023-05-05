@@ -164,6 +164,7 @@ namespace INICIO
             this.toolStripLabel3.Name = "toolStripLabel3";
             this.toolStripLabel3.Size = new System.Drawing.Size(52, 22);
             this.toolStripLabel3.Text = "Stok";
+            this.toolStripLabel3.Click += new System.EventHandler(this.toolStripLabel3_Click);
             // 
             // Almacen
             // 
