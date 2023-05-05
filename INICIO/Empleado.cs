@@ -120,6 +120,7 @@ namespace INICIO
         {
             Renunciar asd = new Renunciar();
             asd.Show();
+            this.Close();
         }
 
         private void panel1_MouseMove(object sender, MouseEventArgs e)

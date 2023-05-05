@@ -158,6 +158,9 @@ namespace INICIO.Empleados
                             string query = "SELECT COUNT(*) FROM Emleados WHERE Cedula = @Cedula";
 
                             // Crear el objeto SqlCommand con la consulta SQL y la conexión a la base de datos
+                            ConexionSQ.conexionj.Conexion.Close();
+
+                            ConexionSQ.conexionj.Conexion.Open();
                             SqlCommand cmd = new SqlCommand(query, ConexionSQ.conexionj.Conexion);
                             cmd.Parameters.AddWithValue("@Cedula", miUsuario);
 
@@ -226,6 +229,9 @@ namespace INICIO.Empleados
             }
             catch
             {
+            
+
+
                 MessageBox.Show(" no exsite ninguna cedula en la base de datos o por favor inserte 3 cedula para validar la informacion", "se pede solucionar", MessageBoxButtons.OK, MessageBoxIcon.Error);
              
 
@@ -466,6 +472,11 @@ namespace INICIO.Empleados
             }
             catch (Exception) {
                 MessageBox.Show("Algo salio mal");
+
+
+
+
+                
             
             
             
@@ -692,7 +703,7 @@ namespace INICIO.Empleados
 
             }
 
-            ConexionSQ.conexionj.Conexion.Close();
+          
 
 
 
@@ -786,6 +797,34 @@ namespace INICIO.Empleados
         private void textEdad_TextChanged(object sender, EventArgs e)
         {
             textEdad.MaxLength = 3;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            string consultar = "insert into Emleados(Nombre,Apellido,Cedula,Direcion,Edad,Trabajo,Telefono,LICENCIDEcondusir,direciondeenvio,Banco,Correo,salario, Descricion) values(@Nombre,@Apellido,@Cedula,@Direcion,@Edad,@Trabajo,@Telefono,@LICENCIDEcondusir,@direciondeenvio,@Banco,@Correo,@salario, @Descricion)";
+
+            ConexionSQ.conexionj.Conexion.Close();
+
+            SqlCommand commando = new SqlCommand(consultar, ConexionSQ.conexionj.Conexion);
+            ConexionSQ.conexionj.Conexion.Open();
+
+            commando.Parameters.AddWithValue("@Nombre", "randon");
+            commando.Parameters.AddWithValue("@Apellido","randon");
+            commando.Parameters.AddWithValue("@Cedula", "023223422");
+            commando.Parameters.AddWithValue("@Direcion", "randon");
+            commando.Parameters.AddWithValue("@Edad", 11);
+            commando.Parameters.AddWithValue("@Trabajo", "randon");
+            commando.Parameters.AddWithValue("@Telefono",111);
+            commando.Parameters.AddWithValue("@LICENCIDEcondusir","randon");
+            commando.Parameters.AddWithValue("@direciondeenvio", 111);
+            commando.Parameters.AddWithValue("@Banco", "RANDON");
+            commando.Parameters.AddWithValue("@Correo", "randon");
+            commando.Parameters.AddWithValue("@salario", 111);
+            commando.Parameters.AddWithValue("@Descricion", "randon");
+            commando.ExecuteNonQuery();
+            MessageBox.Show("se guardo");
+
+
         }
     }
 }
