@@ -77,6 +77,7 @@ namespace INICIO.Empleados
 
             SqlCommand comando = new SqlCommand("select * from  Emleados where Cedula=@Id", ConexionSQ.conexionj.Conexion);
             comando.Parameters.AddWithValue("@Id",textId.Text);
+
             ConexionSQ.conexionj.Conexion.Open();
             SqlDataReader adatar = comando.ExecuteReader();
             if (adatar.Read()) {
@@ -101,7 +102,7 @@ namespace INICIO.Empleados
         private void button2_Click(object sender, EventArgs e)
         {
             string updat = "UPDATE Emleados SET Nombre=@Nombre,Apellido=@Apellido,Correo=@Correo,Cedula=@Cedula,Direcion=@Direcion,Edad=@Edad,Telefono=@Telefono,Salario=@Salario   where Id=@Id";
-
+            ConexionSQ.conexionj.Conexion.Close();
             ConexionSQ.conexionj.Conexion.Open();
             SqlCommand comando = new SqlCommand(updat, ConexionSQ.conexionj.Conexion);
 
