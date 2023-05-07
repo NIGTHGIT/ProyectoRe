@@ -810,7 +810,7 @@ namespace INICIO.Empleados
 
             commando.Parameters.AddWithValue("@Nombre", "randon");
             commando.Parameters.AddWithValue("@Apellido","randon");
-            commando.Parameters.AddWithValue("@Cedula", "023223422");
+            commando.Parameters.AddWithValue("@Cedula", "03231232312");
             commando.Parameters.AddWithValue("@Direcion", "randon");
             commando.Parameters.AddWithValue("@Edad", 11);
             commando.Parameters.AddWithValue("@Trabajo", "randon");
