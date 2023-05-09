@@ -134,13 +134,14 @@ namespace INICIO.Empleados
             Configuracion fffp = new  Configuracion();
 
             //añadir padre
-            AddOwnedForm(fffp);
+       
             //aceder al control
         
 
 
 
             fffp.Show();
+            this.Close();
             
 
 

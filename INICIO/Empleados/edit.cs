@@ -35,6 +35,7 @@ namespace INICIO.Empleados
             }
             else
             {
+                panel10.Visible = false;
                 PANELdesple1.Visible = false;
                 panel5.Visible = true;
 

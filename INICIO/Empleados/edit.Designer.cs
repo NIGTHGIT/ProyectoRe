@@ -320,7 +320,7 @@ namespace INICIO.Empleados
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("NewsGoth Lt BT", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(12, 307);
             this.label3.Name = "label3";
@@ -498,8 +498,8 @@ namespace INICIO.Empleados
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.panel5);
             this.Controls.Add(this.PANELdesple1);
+            this.Controls.Add(this.panel5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "edit";
             this.Text = "edit";
