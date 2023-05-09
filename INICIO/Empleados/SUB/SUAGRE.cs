@@ -31,6 +31,7 @@ namespace INICIO.Empleados.SUB
             if (validarpago() == false ){return;}
             if (validarTelefono() == false){ return;}
             if (validarCedula() == false){ return; }
+         
 
             ConexionSQ.conexionj.Conexion.Close();
           
@@ -61,6 +62,8 @@ namespace INICIO.Empleados.SUB
 
 
         }
+
+       
 
         private bool validarCedula()
         {

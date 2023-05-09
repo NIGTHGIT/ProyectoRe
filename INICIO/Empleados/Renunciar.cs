@@ -20,6 +20,9 @@ namespace INICIO.Empleados
             string query = "SELECT * FROM Emleados";
 
             // Crea un objeto SqlCommand
+            ConexionSQ.conexionj.Conexion.Close();
+            ConexionSQ.conexionj.Conexion.Open();
+
             SqlCommand command = new SqlCommand(query, ConexionSQ.conexionj.Conexion);
 
             // Crea un objeto SqlDataAdapter y llena un objeto DataTable con los resultados de la consulta SQL

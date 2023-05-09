@@ -1,4 +1,7 @@
 
+ALTER TABLE Emleados
+ALTER COLUMN Cedula varchar(50)
+
 
 
 
@@ -11,5 +14,6 @@ CREATE TABLE  Stok(
     select * from Stok
 
    UPDATE Stok set FechadefACTURA  = '7&78', Descrip = '' where ID = 2
+
 
 

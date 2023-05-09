@@ -62,7 +62,9 @@ namespace INICIO
         }
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Inicio SSS = new Inicio();
+            SSS.Show();
+            this.Close();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -109,7 +111,7 @@ namespace INICIO
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Modificar asb = new Modificar();
+            TATERD asb = new TATERD();
             asb.Show();
             this.Close();
         }
@@ -118,6 +120,7 @@ namespace INICIO
         {
             Renunciar asd = new Renunciar();
             asd.Show();
+            this.Close();
         }
 
         private void panel1_MouseMove(object sender, MouseEventArgs e)

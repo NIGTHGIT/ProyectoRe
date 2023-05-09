@@ -214,7 +214,9 @@ namespace INICIO
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            Inicio ss = new Inicio();
+            ss.Show();
+            this.Close();
         }
     }
 }

@@ -17,16 +17,7 @@ namespace INICIO.Empleados.SUB
         {
             InitializeComponent();
             ConexionSQ.conexionj.Conexion.Close();
-            ConexionSQ.conexionj.Conexion.Open();
-            SqlCommand comndo = new SqlCommand("select * from suplentes", ConexionSQ.conexionj.Conexion);
-            SqlDataAdapter ddd = new SqlDataAdapter();
-
-            ddd.SelectCommand = comndo;
-            DataTable tabe = new DataTable();
-            ddd.Fill(tabe);
-
-            dataGridView1.DataSource = tabe;
-            ConexionSQ.conexionj.Conexion.Close();
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -38,9 +29,9 @@ namespace INICIO.Empleados.SUB
             SqlDataReader adatar = comando.ExecuteReader();
             if (adatar.Read())
             {
-                 textnombre.Text = adatar["Nombre"].ToString();
-                 textapellido.Text = adatar["Apellido"].ToString();
-                 TEXTEDAD.Text = adatar["Edad"].ToString();
+                textnombre.Text = adatar["Nombre"].ToString();
+                textapellido.Text = adatar["Apellido"].ToString();
+                TEXTEDAD.Text = adatar["Edad"].ToString();
                 TEXTEcedula.Text = adatar["Cedula"].ToString();
                 textetelefono.Text = adatar["Telefono"].ToString();
                 textpago.Text = adatar["pago"].ToString();
@@ -55,7 +46,55 @@ namespace INICIO.Empleados.SUB
 
 
             }
+            else {
+                MessageBox.Show("La cedua no existe");
+            
+            
+            }
             ConexionSQ.conexionj.Conexion.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+
+            try
+            {
+                if (MessageBox.Show("quieres eliminar  el suplente", "", MessageBoxButtons.OKCancel) == DialogResult.OK)
+                {
+
+
+
+                    int id = int.Parse(textid.Text);
+                    ConexionSQ.conexionj.Conexion.Close();
+                    ConexionSQ.conexionj.Conexion.Open();
+                    SqlCommand command = new SqlCommand("DELETE FROM suplentes WHERE Cedula = @Id", ConexionSQ.conexionj.Conexion);
+                    command.Parameters.AddWithValue("@ID", id);
+                    command.ExecuteNonQuery();
+                    MessageBox.Show("se elimino");
+                    ConexionSQ.conexionj.Conexion.Close();
+
+
+                    textnombre.Text = "null";
+                    textapellido.Text = "null";
+                    TEXTEDAD.Text = "null";
+                    TEXTEcedula.Text = "null";
+                    textetelefono.Text = "null";
+                    textpago.Text = "null";
+                }
+                else
+                {
+
+
+                }
+
+
+
+            }
+            catch (Exception) { }
+
+        
+
+    }
     }
 }
