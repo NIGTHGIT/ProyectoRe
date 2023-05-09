@@ -448,6 +448,36 @@
     <Compile Include="SubmMenuAlamcen\MenufILTRO\ViewHerramienta.Designer.cs">
       <DependentUpon>ViewHerramienta.cs</DependentUpon>
     </Compile>
+    <Compile Include="SubmMenuAlamcen\ProducListo\EditProduc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\ProducListo\EditProduc.Designer.cs">
+      <DependentUpon>EditProduc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\ProducListo\InfoProduc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\ProducListo\InfoProduc.Designer.cs">
+      <DependentUpon>InfoProduc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\ProducListo\ProductoListo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\ProducListo\ProductoListo.Designer.cs">
+      <DependentUpon>ProductoListo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\Stok\Stok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\Stok\Stok.Designer.cs">
+      <DependentUpon>Stok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\Stok\ViewStok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmMenuAlamcen\Stok\ViewStok.Designer.cs">
+      <DependentUpon>ViewStok.cs</DependentUpon>
+    </Compile>
     <Compile Include="VIdeo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -628,6 +658,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SubmMenuAlamcen\MenufILTRO\ViewHerramienta.resx">
       <DependentUpon>ViewHerramienta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmMenuAlamcen\ProducListo\EditProduc.resx">
+      <DependentUpon>EditProduc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmMenuAlamcen\ProducListo\InfoProduc.resx">
+      <DependentUpon>InfoProduc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmMenuAlamcen\ProducListo\ProductoListo.resx">
+      <DependentUpon>ProductoListo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmMenuAlamcen\Stok\Stok.resx">
+      <DependentUpon>Stok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmMenuAlamcen\Stok\ViewStok.resx">
+      <DependentUpon>ViewStok.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VIdeo.resx">
       <DependentUpon>VIdeo.cs</DependentUpon>
@@ -970,9 +1015,14 @@
     <None Include="Resources\Delete-Icon-PNG-HD-Quality.png" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="-vCesar\" />
     <Folder Include="-VJose\" />
     <Folder Include="Mollllll\" />
     <Folder Include="Submenu\" />
+    <Folder Include="V-Cesar2\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\419660.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\WhatsApp Image 2023-04-28 at 8.11.42 PM.jpeg" />

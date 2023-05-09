@@ -263,6 +263,16 @@ namespace INICIO.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _419660 {
+            get {
+                object obj = ResourceManager.GetObject("419660", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _4337239_close_close_button_delete_remove_x_icon {
             get {
                 object obj = ResourceManager.GetObject("4337239_close_close button_delete_remove_x_icon", resourceCulture);

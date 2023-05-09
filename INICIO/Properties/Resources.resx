@@ -172,6 +172,11 @@
   <data name="pngaaa.com-1513053" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngaaa.com-1513053.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+
+  <data name="5752250_cardboard_google_vr_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5752250_cardboard_google_vr_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+
   <data name="8786624_minimized_minimize_screen_maximize_tools_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8786624_minimized_minimize_screen_maximize_tools_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -205,11 +210,17 @@
   <data name="Configuracion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Configuracion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="vender-empresa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vender-empresa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AdobeStock_190618859_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AdobeStock_190618859_Preview.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="5752250_cardboard_google_vr_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5752250_cardboard_google_vr_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="gestion-web" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gestion-web.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3132455_analytics_data_eye_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3132455_analytics_data_eye_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="llamada-telefonica" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\llamada-telefonica.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,8 +243,8 @@
   <data name="10285518_maximize_button_view_window_full_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\10285518_maximize_button_view_window_full_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vender-empresa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vender-empresa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="26bf281ff1a4b2acbe988667fda013fe-ilustracion-de-mesa-de-madera-redonda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\26bf281ff1a4b2acbe988667fda013fe-ilustracion-de-mesa-de-madera-redonda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cerrar-con-llave (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cerrar-con-llave (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -247,6 +258,7 @@
   <data name="WhatsApp Image 2023-04-28 at 8.11.42 PM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhatsApp Image 2023-04-28 at 8.11.42 PM.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+
   <data name="gestion-web" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gestion-web.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -261,6 +273,13 @@
   </data>
   <data name="shutdown-button-wallpaper-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shutdown-button-wallpaper-preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
+  <data name="Paypal_2014_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paypal_2014_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
+  </data>
+  <data name="1486348819-back-backwards-repeat-arrows-arrow-blue_80473" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1486348819-back-backwards-repeat-arrows-arrow-blue_80473.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hombre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hombre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -268,17 +287,20 @@
   <data name="bitcoin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bitcoin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="5734444_business_man_properties_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5734444_business_man_properties_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="etiqueta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\etiqueta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1486348811-music-note-play-melody-blue_80471" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1486348811-music-note-play-melody-blue_80471.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="4337239_close_close button_delete_remove_x_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4337239_close_close button_delete_remove_x_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cerrar-con-llave" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cerrar-con-llave.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="26bf281ff1a4b2acbe988667fda013fe-ilustracion-de-mesa-de-madera-redonda" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\26bf281ff1a4b2acbe988667fda013fe-ilustracion-de-mesa-de-madera-redonda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="etiqueta (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\etiqueta (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -304,11 +326,15 @@
   <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+
   <data name="perfil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perfil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AdobeStock_199693074_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AdobeStock_199693074_Preview.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
+  <data name="jugador-suplente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jugador-suplente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="user_eliminate_1102 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_eliminate_1102 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -337,18 +363,25 @@
   <data name="salario" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\salario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+
   <data name="istockphoto-466178003-1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\istockphoto-466178003-1024x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="4337239_close_close button_delete_remove_x_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4337239_close_close button_delete_remove_x_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
+  <data name="968-9687047_descarga-estos-imgenes-de-cdigo-de-barras-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\968-9687047_descarga-estos-imgenes-de-cdigo-de-barras-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
   </data>
   <data name="Print_icon-icons.com_74701" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Print_icon-icons.com_74701.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+
   <data name="donacion-de-organos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\donacion-de-organos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+
   <data name="aumentar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aumentar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -361,8 +394,8 @@
   <data name="Paypal_2014_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Paypal_2014_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="3132455_analytics_data_eye_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3132455_analytics_data_eye_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="perfil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perfil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="jugador-suplente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jugador-suplente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -415,7 +448,12 @@
   <data name="Londres" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Londres.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+
   <data name="bueno-hola" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bueno-hola.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
+  <data name="419660" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\419660.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+
   </data>
 </root>
