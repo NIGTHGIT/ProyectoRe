@@ -273,7 +273,7 @@
   </data>
   <data name="shutdown-button-wallpaper-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\shutdown-button-wallpaper-preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-
+ </data>
   <data name="Paypal_2014_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Paypal_2014_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
 
@@ -332,7 +332,7 @@
   </data>
   <data name="AdobeStock_199693074_Preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AdobeStock_199693074_Preview.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-
+</data>
   <data name="jugador-suplente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\jugador-suplente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -369,7 +369,7 @@
   </data>
   <data name="4337239_close_close button_delete_remove_x_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4337239_close_close button_delete_remove_x_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-
+</data>
   <data name="968-9687047_descarga-estos-imgenes-de-cdigo-de-barras-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\968-9687047_descarga-estos-imgenes-de-cdigo-de-barras-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
 
@@ -451,7 +451,7 @@
 
   <data name="bueno-hola" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bueno-hola.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-
+</data>
   <data name="419660" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\419660.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
 
