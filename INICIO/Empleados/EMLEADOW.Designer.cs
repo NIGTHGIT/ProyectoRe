@@ -31,21 +31,8 @@ namespace INICIO.Empleados
         {
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.texcbanco = new System.Windows.Forms.ComboBox();
-            this.textBoxtelefono = new System.Windows.Forms.TextBox();
-            this.comboBxsalario = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.TextSueldo = new System.Windows.Forms.Label();
-            this.textLicncia = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.TextCorreo = new System.Windows.Forms.TextBox();
-            this.textBoXDirecion = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.panel1DE = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.textDirecion = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textNombre = new System.Windows.Forms.TextBox();
@@ -69,18 +56,31 @@ namespace INICIO.Empleados
             this.label13 = new System.Windows.Forms.Label();
             this.dddd = new System.Windows.Forms.Label();
             this.texboxdec = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.texcbanco = new System.Windows.Forms.ComboBox();
+            this.textBoxtelefono = new System.Windows.Forms.TextBox();
+            this.comboBxsalario = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.TextSueldo = new System.Windows.Forms.Label();
+            this.textLicncia = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.TextCorreo = new System.Windows.Forms.TextBox();
+            this.textBoXDirecion = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel1DE.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -95,177 +95,6 @@ namespace INICIO.Empleados
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(869, 546);
             this.panel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.texcbanco);
-            this.panel2.Controls.Add(this.textBoxtelefono);
-            this.panel2.Controls.Add(this.comboBxsalario);
-            this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.TextSueldo);
-            this.panel2.Controls.Add(this.textLicncia);
-            this.panel2.Controls.Add(this.label9);
-            this.panel2.Controls.Add(this.label10);
-            this.panel2.Controls.Add(this.TextCorreo);
-            this.panel2.Controls.Add(this.textBoXDirecion);
-            this.panel2.Controls.Add(this.label11);
-            this.panel2.Controls.Add(this.label12);
-            this.panel2.Location = new System.Drawing.Point(57, 12);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(800, 459);
-            this.panel2.TabIndex = 40;
-            this.panel2.Visible = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(282, 397);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 39;
-            this.button2.Text = "Sigirnte";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
-            // 
-            // texcbanco
-            // 
-            this.texcbanco.BackColor = System.Drawing.Color.FloralWhite;
-            this.texcbanco.FormattingEnabled = true;
-            this.texcbanco.Items.AddRange(new object[] {
-            "Santo Domingo",
-            "Santiago de los Caballeros",
-            "San Francisco de Macorís",
-            "Higüey",
-            "La Romana",
-            "Puerto Plata",
-            "Jarabacoa",
-            "Constanza",
-            "Bonao",
-            "Cotuí",
-            "Sosua",
-            "Cabarete",
-            "Boca Chica",
-            "Barahona",
-            "Baní",
-            "Santa Barbara de Samaná",
-            "Las Galeras",
-            "Las Terrenas",
-            "Juan Dolio",
-            "Miches"});
-            this.texcbanco.Location = new System.Drawing.Point(377, 217);
-            this.texcbanco.Name = "texcbanco";
-            this.texcbanco.Size = new System.Drawing.Size(316, 21);
-            this.texcbanco.TabIndex = 26;
-            // 
-            // textBoxtelefono
-            // 
-            this.textBoxtelefono.BackColor = System.Drawing.Color.FloralWhite;
-            this.textBoxtelefono.Location = new System.Drawing.Point(108, 128);
-            this.textBoxtelefono.Name = "textBoxtelefono";
-            this.textBoxtelefono.Size = new System.Drawing.Size(233, 20);
-            this.textBoxtelefono.TabIndex = 14;
-            this.textBoxtelefono.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            this.textBoxtelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxCedula_KeyPress);
-            // 
-            // comboBxsalario
-            // 
-            this.comboBxsalario.BackColor = System.Drawing.Color.FloralWhite;
-            this.comboBxsalario.FormattingEnabled = true;
-            this.comboBxsalario.Location = new System.Drawing.Point(377, 319);
-            this.comboBxsalario.Name = "comboBxsalario";
-            this.comboBxsalario.Size = new System.Drawing.Size(316, 21);
-            this.comboBxsalario.TabIndex = 25;
-            this.comboBxsalario.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-            this.comboBxsalario.Click += new System.EventHandler(this.comboBxsalario_Click);
-            this.comboBxsalario.Validated += new System.EventHandler(this.comboBxsalario_Validated);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(217, 112);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(49, 13);
-            this.label7.TabIndex = 15;
-            this.label7.Text = "Telefono";
-            // 
-            // TextSueldo
-            // 
-            this.TextSueldo.AutoSize = true;
-            this.TextSueldo.ForeColor = System.Drawing.Color.White;
-            this.TextSueldo.Location = new System.Drawing.Point(526, 285);
-            this.TextSueldo.Name = "TextSueldo";
-            this.TextSueldo.Size = new System.Drawing.Size(40, 13);
-            this.TextSueldo.TabIndex = 24;
-            this.TextSueldo.Text = "Sueldo";
-            // 
-            // textLicncia
-            // 
-            this.textLicncia.BackColor = System.Drawing.Color.FloralWhite;
-            this.textLicncia.Location = new System.Drawing.Point(377, 128);
-            this.textLicncia.Name = "textLicncia";
-            this.textLicncia.Size = new System.Drawing.Size(316, 20);
-            this.textLicncia.TabIndex = 16;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(208, 303);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(53, 13);
-            this.label9.TabIndex = 23;
-            this.label9.Text = "CORREO";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(469, 112);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 13);
-            this.label10.TabIndex = 17;
-            this.label10.Text = "Licenci de conducir";
-            // 
-            // TextCorreo
-            // 
-            this.TextCorreo.AllowDrop = true;
-            this.TextCorreo.BackColor = System.Drawing.Color.FloralWhite;
-            this.TextCorreo.Location = new System.Drawing.Point(108, 319);
-            this.TextCorreo.Name = "TextCorreo";
-            this.TextCorreo.Size = new System.Drawing.Size(233, 20);
-            this.TextCorreo.TabIndex = 22;
-            // 
-            // textBoXDirecion
-            // 
-            this.textBoXDirecion.BackColor = System.Drawing.Color.FloralWhite;
-            this.textBoXDirecion.Location = new System.Drawing.Point(108, 219);
-            this.textBoXDirecion.Name = "textBoXDirecion";
-            this.textBoXDirecion.Size = new System.Drawing.Size(233, 20);
-            this.textBoXDirecion.TabIndex = 18;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(523, 200);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(38, 13);
-            this.label11.TabIndex = 21;
-            this.label11.Text = "Banco";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(182, 198);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(91, 13);
-            this.label12.TabIndex = 19;
-            this.label12.Text = "DIrecion de envio";
             // 
             // panel1DE
             // 
@@ -287,6 +116,17 @@ namespace INICIO.Empleados
             this.panel1DE.Name = "panel1DE";
             this.panel1DE.Size = new System.Drawing.Size(777, 440);
             this.panel1DE.TabIndex = 39;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::INICIO.Properties.Resources._Pngtree_indonesian_padang_restaurant_8922999_removebg_preview;
+            this.pictureBox4.Location = new System.Drawing.Point(674, 387);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 39;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // textDirecion
             // 
@@ -525,20 +365,164 @@ namespace INICIO.Empleados
             this.texboxdec.TabIndex = 0;
             this.texboxdec.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.texcbanco);
+            this.panel2.Controls.Add(this.textBoxtelefono);
+            this.panel2.Controls.Add(this.comboBxsalario);
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Controls.Add(this.TextSueldo);
+            this.panel2.Controls.Add(this.textLicncia);
+            this.panel2.Controls.Add(this.label9);
+            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.TextCorreo);
+            this.panel2.Controls.Add(this.textBoXDirecion);
+            this.panel2.Controls.Add(this.label11);
+            this.panel2.Controls.Add(this.label12);
+            this.panel2.Location = new System.Drawing.Point(57, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(800, 459);
+            this.panel2.TabIndex = 40;
+            this.panel2.Visible = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(282, 397);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 39;
+            this.button2.Text = "Sigirnte";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
+            // texcbanco
+            // 
+            this.texcbanco.BackColor = System.Drawing.Color.FloralWhite;
+            this.texcbanco.FormattingEnabled = true;
+            this.texcbanco.Items.AddRange(new object[] {
+            "BHD ",
+            "POPULAR",
+            "Banco sant crus",
+            "Banco ademi"});
+            this.texcbanco.Location = new System.Drawing.Point(377, 217);
+            this.texcbanco.Name = "texcbanco";
+            this.texcbanco.Size = new System.Drawing.Size(316, 21);
+            this.texcbanco.TabIndex = 26;
+            // 
+            // textBoxtelefono
+            // 
+            this.textBoxtelefono.BackColor = System.Drawing.Color.FloralWhite;
+            this.textBoxtelefono.Location = new System.Drawing.Point(108, 128);
+            this.textBoxtelefono.Name = "textBoxtelefono";
+            this.textBoxtelefono.Size = new System.Drawing.Size(233, 20);
+            this.textBoxtelefono.TabIndex = 14;
+            this.textBoxtelefono.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBoxtelefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxCedula_KeyPress);
+            // 
+            // comboBxsalario
+            // 
+            this.comboBxsalario.BackColor = System.Drawing.Color.FloralWhite;
+            this.comboBxsalario.FormattingEnabled = true;
+            this.comboBxsalario.Location = new System.Drawing.Point(377, 319);
+            this.comboBxsalario.Name = "comboBxsalario";
+            this.comboBxsalario.Size = new System.Drawing.Size(316, 21);
+            this.comboBxsalario.TabIndex = 25;
+            this.comboBxsalario.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.comboBxsalario.Click += new System.EventHandler(this.comboBxsalario_Click);
+            this.comboBxsalario.Validated += new System.EventHandler(this.comboBxsalario_Validated);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(217, 112);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(49, 13);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Telefono";
+            // 
+            // TextSueldo
+            // 
+            this.TextSueldo.AutoSize = true;
+            this.TextSueldo.ForeColor = System.Drawing.Color.White;
+            this.TextSueldo.Location = new System.Drawing.Point(526, 285);
+            this.TextSueldo.Name = "TextSueldo";
+            this.TextSueldo.Size = new System.Drawing.Size(40, 13);
+            this.TextSueldo.TabIndex = 24;
+            this.TextSueldo.Text = "Sueldo";
+            // 
+            // textLicncia
+            // 
+            this.textLicncia.BackColor = System.Drawing.Color.FloralWhite;
+            this.textLicncia.Location = new System.Drawing.Point(377, 128);
+            this.textLicncia.Name = "textLicncia";
+            this.textLicncia.Size = new System.Drawing.Size(316, 20);
+            this.textLicncia.TabIndex = 16;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(208, 303);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(53, 13);
+            this.label9.TabIndex = 23;
+            this.label9.Text = "CORREO";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(469, 112);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(100, 13);
+            this.label10.TabIndex = 17;
+            this.label10.Text = "Licenci de conducir";
+            // 
+            // TextCorreo
+            // 
+            this.TextCorreo.AllowDrop = true;
+            this.TextCorreo.BackColor = System.Drawing.Color.FloralWhite;
+            this.TextCorreo.Location = new System.Drawing.Point(108, 319);
+            this.TextCorreo.Name = "TextCorreo";
+            this.TextCorreo.Size = new System.Drawing.Size(233, 20);
+            this.TextCorreo.TabIndex = 22;
+            // 
+            // textBoXDirecion
+            // 
+            this.textBoXDirecion.BackColor = System.Drawing.Color.FloralWhite;
+            this.textBoXDirecion.Location = new System.Drawing.Point(108, 219);
+            this.textBoXDirecion.Name = "textBoXDirecion";
+            this.textBoXDirecion.Size = new System.Drawing.Size(233, 20);
+            this.textBoXDirecion.TabIndex = 18;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(523, 200);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(38, 13);
+            this.label11.TabIndex = 21;
+            this.label11.Text = "Banco";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(182, 198);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(91, 13);
+            this.label12.TabIndex = 19;
+            this.label12.Text = "DIrecion de envio";
+            // 
             // errorProvider1
             // 
             this.errorProvider1.ContainerControl = this;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::INICIO.Properties.Resources._Pngtree_indonesian_padang_restaurant_8922999_removebg_preview;
-            this.pictureBox4.Location = new System.Drawing.Point(674, 387);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 39;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // EMLEADOW
             // 
@@ -551,18 +535,18 @@ namespace INICIO.Empleados
             this.Text = "EMLEADOW";
             this.Load += new System.EventHandler(this.EMLEADOW_Load);
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel1DE.ResumeLayout(false);
             this.panel1DE.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
