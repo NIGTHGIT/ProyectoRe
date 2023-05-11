@@ -326,7 +326,7 @@ namespace INICIO.Empleados
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(234, 168);
             this.label3.TabIndex = 19;
-            this.label3.Text = "Atualiza tus Empleaados  Y Mejora tu Empleresa   ";
+            this.label3.Text = "Atualiza tus Empleados  Y Mejora tu Empresa";
             // 
             // pictureBox1
             // 

@@ -31,10 +31,11 @@ namespace INICIO
         {
             this.components = new System.ComponentModel.Container();
             this.userInputTextBox = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.chatbotOutputLabel = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.timer = new System.Windows.Forms.Timer(this.components);
+            this.button1 = new System.Windows.Forms.Button();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.SuspendLayout();
             // 
             // userInputTextBox
@@ -44,20 +45,10 @@ namespace INICIO
             this.userInputTextBox.Size = new System.Drawing.Size(432, 20);
             this.userInputTextBox.TabIndex = 0;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(169, 105);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "buscar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // chatbotOutputLabel
             // 
             this.chatbotOutputLabel.AutoSize = true;
-            this.chatbotOutputLabel.Location = new System.Drawing.Point(201, 45);
+            this.chatbotOutputLabel.Location = new System.Drawing.Point(50, 47);
             this.chatbotOutputLabel.Name = "chatbotOutputLabel";
             this.chatbotOutputLabel.Size = new System.Drawing.Size(114, 13);
             this.chatbotOutputLabel.TabIndex = 2;
@@ -77,11 +68,37 @@ namespace INICIO
             // 
             this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(169, 105);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "buscar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.BackColor = System.Drawing.Color.Transparent;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.ReplyAll;
+            this.iconButton1.IconColor = System.Drawing.Color.Yellow;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButton1.Location = new System.Drawing.Point(474, 252);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(75, 49);
+            this.iconButton1.TabIndex = 7;
+            this.iconButton1.UseVisualStyleBackColor = false;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
             // IA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(561, 313);
+            this.Controls.Add(this.iconButton1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.chatbotOutputLabel);
             this.Controls.Add(this.button1);
@@ -97,9 +114,10 @@ namespace INICIO
         #endregion
 
         private System.Windows.Forms.TextBox userInputTextBox;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label chatbotOutputLabel;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.Button button1;
+        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }

@@ -32,7 +32,6 @@ namespace INICIO.Empleados
             this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel1DE = new System.Windows.Forms.Panel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.textDirecion = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textNombre = new System.Windows.Forms.TextBox();
@@ -73,7 +72,6 @@ namespace INICIO.Empleados
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
             this.panel1DE.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -98,7 +96,6 @@ namespace INICIO.Empleados
             // 
             // panel1DE
             // 
-            this.panel1DE.Controls.Add(this.pictureBox4);
             this.panel1DE.Controls.Add(this.textDirecion);
             this.panel1DE.Controls.Add(this.button1);
             this.panel1DE.Controls.Add(this.textNombre);
@@ -116,17 +113,6 @@ namespace INICIO.Empleados
             this.panel1DE.Name = "panel1DE";
             this.panel1DE.Size = new System.Drawing.Size(777, 440);
             this.panel1DE.TabIndex = 39;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::INICIO.Properties.Resources._Pngtree_indonesian_padang_restaurant_8922999_removebg_preview;
-            this.pictureBox4.Location = new System.Drawing.Point(674, 387);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 39;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // textDirecion
             // 
@@ -537,7 +523,6 @@ namespace INICIO.Empleados
             this.panel1.ResumeLayout(false);
             this.panel1DE.ResumeLayout(false);
             this.panel1DE.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -593,6 +578,5 @@ namespace INICIO.Empleados
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

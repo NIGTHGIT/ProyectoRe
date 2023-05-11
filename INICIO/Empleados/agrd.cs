@@ -59,5 +59,12 @@ namespace INICIO.Empleados
                 comboBox1.Items.Add(letor.GetString(1));
             }
         }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            Empleado sss = new Empleado();
+            sss.Show();
+            this.Close();
+        }
     }
 }

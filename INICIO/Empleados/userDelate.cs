@@ -33,5 +33,12 @@ namespace INICIO.Empleados
         {
 
         }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            Empleado sss = new Empleado();
+            sss.Show();
+            this.Close();
+        }
     }
 }
