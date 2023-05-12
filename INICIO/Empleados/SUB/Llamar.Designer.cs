@@ -96,6 +96,7 @@ namespace INICIO.Empleados.SUB
             this.pictureBox9.Size = new System.Drawing.Size(455, 450);
             this.pictureBox9.TabIndex = 12;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Visible = false;
             // 
             // pictureBox8
             // 
